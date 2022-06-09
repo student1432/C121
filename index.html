@@ -1,0 +1,50 @@
+<html>
+<head>
+  <title>Google Lens VS Mobilenet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div>
+    <h1>case study between Google lens and MobileNet</h1>
+<br>
+<br>
+    <div>
+      <h2>Google Lens</h2>
+      <img id="google" src="unnamed (1).png">
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+      <label id="mobilenet">MobileNet</label>
+    </div>
+    <br>
+    <br>
+    <div class="img_div">
+      <center>
+        <div>
+            <h2>1 Test Image</h2>
+            <img class="img" src="shoes.jpg">
+            </div>
+            <div class="result_div">
+                <span>
+                    <label id="gl">Output on GOOGLE LENS - Canvas shoes</label>
+                    <br>
+                    <label id="mn">Output on MobileNet - Running shoes</label>
+                </span>
+                <h2>Result - google lens is more accurate</h2>
+                <hr>
+            </div>
+          </center>
+      </div>
+</body>
